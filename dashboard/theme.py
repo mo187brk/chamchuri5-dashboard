@@ -64,7 +64,9 @@ html, body, [data-testid="stApp"], [data-testid="stAppViewContainer"] {{
 }}
 [data-testid="stHeader"] {{ background: transparent; }}
 [data-testid="stSidebar"] {{ background: var(--surface); border-right: 1px solid var(--line); }}
-[data-testid="stSidebar"] * {{ font-family: {FONT_BODY}; }}
+[data-testid="stSidebar"] :is(p, label, div, button, input, textarea) {{ font-family: {FONT_BODY}; }}
+/* Streamlit draws its arrows and icons with the Material Symbols font: never override it. */
+[data-testid="stIconMaterial"], span[class*="material-symbols"] {{ font-family: "Material Symbols Rounded", "Material Icons" !important; }}
 .block-container {{ padding-top: 2.2rem; padding-bottom: 4rem; max-width: 1240px; }}
 
 h1, h2, h3, h4 {{ font-family: {FONT_DISPLAY}; letter-spacing: -0.01em; color: var(--ink); }}
