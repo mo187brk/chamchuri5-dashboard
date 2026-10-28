@@ -1,0 +1,6 @@
+streamlit>=1.50,<2
+plotly>=5.24,<7
+pandas>=2.2
+numpy>=1.26
+# only needed to rebuild the data files with scripts/build_data.py
+openpyxl>=3.1

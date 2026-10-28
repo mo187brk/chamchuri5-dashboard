@@ -1,0 +1,17 @@
+{
+  "name": "Expanded plant (Case 4)",
+  "capacity_kwp": 550.0,
+  "module_kw": 0.55,
+  "modules": 1000,
+  "module_area_m2": 2.6,
+  "latitude_deg_n": 13.738,
+  "longitude_deg_e": 100.529,
+  "tilt_deg": 15,
+  "azimuth_deg": 180,
+  "azimuth_convention": "0 = south in the source sheet; 180 entered, as for the existing array",
+  "technology": "Crystalline silicon",
+  "system_losses_pct": 14,
+  "profile_unit": "Wh per kWp for the average day of each month (hour 0-1 ... 23-24)",
+  "source": "Plant sheet supplied by the project team, 2026-10-28 (PVGIS-based)",
+  "team_monthly_kwh_total": 767489.3
+}

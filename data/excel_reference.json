@@ -1,0 +1,63 @@
+{
+  "S0": {
+    "pv_kwh": 27908.700000000415,
+    "export_kwh": 0,
+    "grid_kwh": 2156037.4504471533,
+    "peak_onpeak_kw": 834.191986244856,
+    "bill_thb": 9917063.466599386,
+    "saving_thb": 0,
+    "capex_thb": 0,
+    "payback_y": null,
+    "npv_thb": 0,
+    "irr": null
+  },
+  "S1": {
+    "pv_kwh": 121616.6549999997,
+    "export_kwh": 6.529478450785412,
+    "grid_kwh": 2062336.0249256054,
+    "peak_onpeak_kw": 798.923236244856,
+    "bill_thb": 9480521.285667624,
+    "saving_thb": 436542.18093176186,
+    "capex_thb": 1930500,
+    "payback_y": 4.626864738393793,
+    "npv_thb": 3002287.4923561774,
+    "irr": 0.22586492688396098
+  },
+  "S2": {
+    "pv_kwh": 121616.6549999997,
+    "export_kwh": 6.529478450785412,
+    "grid_kwh": 2067477.888401041,
+    "peak_onpeak_kw": 798.923236244856,
+    "bill_thb": 9409067.949082999,
+    "saving_thb": 507995.5175163876,
+    "capex_thb": 4730500,
+    "payback_y": 10.590106157394427,
+    "npv_thb": -214765.64860898163,
+    "irr": 0.06403551900551885
+  },
+  "S3": {
+    "pv_kwh": 27908.700000000415,
+    "export_kwh": 0,
+    "grid_kwh": 2161179.3139225887,
+    "peak_onpeak_kw": 834.191986244856,
+    "bill_thb": 9846974.693096602,
+    "saving_thb": 70088.77350278385,
+    "capex_thb": 2800000,
+    "payback_y": 99.68395379465376,
+    "npv_thb": -3233215.7158009913,
+    "irr": null
+  },
+  "annual_bill_no_pv_thb": 10047287.013682082,
+  "alt_south_new_array": {
+    "pv_kwh": 131520,
+    "saving_thb": 483005,
+    "payback_y": 4.16,
+    "npv_thb": 3552619
+  },
+  "alt_new_replaces_old": {
+    "pv_kwh": 93708,
+    "saving_thb": 306373,
+    "payback_y": 6.72,
+    "npv_thb": 1460502
+  }
+}
